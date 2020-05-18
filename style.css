@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    width: 85%;
+    margin:auto;
+}
+
+.header{
+    background-color: #3F5B9A;
+    padding: 10px 0;
+    
+    
+}
+.fb-logo{
+    width: 30%;
+    float: left;
+    padding-top: 5px;
+    
+}
+.login-area{
+    overflow: hidden;
+    
+    
+}
+.login-area form{
+    float: right;
+}
+.password a{
+    display: block;
+}
+.login-area label{
+    display: block;
+}
+.username{
+    float: left;
+    margin-right: 15px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.password{
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.username input{
+    margin-top: 5px;
+    border: 1px solid #1D2A5B;
+    padding: 2px;
+}
+.password input{
+    margin-top: 5px;
+    border: 1px solid #1D2A5B;
+    padding: 2px;
+
+}
+.password a{
+    margin-top: 3px;
+    color: #9CB4D8;
+    text-decoration: none;
+}
+.password a:hover{
+    text-decoration: underline;
+}
+.username label{
+    cursor: pointer;
+}
+.password label{
+    cursor: pointer;
+}
+.submit-area{
+    overflow: hidden;
+    padding-top: 19px;
+    
+    
+    
+    
+    
+    
+}
+.submit-area input{
+    background-color: #4267B2;
+    cursor: pointer;
+    font-weight: bold; 
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    line-height: 18px;
+    text-align: center;
+    text-shadow: none;
+    float: left;
+    
+    
+}
+.submit-area input:hover{
+    background-color:#365899 ;
+}
+
+
+@media all and (max-width:768px){
+    .fb-logo{
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .login-area form{
+        float: none;
+        width: 434px;
+        margin: auto;
+    }
+}
+@media all and (max-width:520px){
+    .login-area form{
+        width: auto;
+    }
+    .login-area .username{
+        float: none;
+    }
+    .login-area .password{
+        float: none;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width: 100%;
+    }
+}
+
+
